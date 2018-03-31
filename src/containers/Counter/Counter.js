@@ -47,6 +47,14 @@ class Counter extends Component {
     }
 }
 
-const mapStateToProps = {}
+
+const mapStateToProps = state => {
+    return {
+
+    };
+}
+
+
+
 
 export default connect(mapStateToProps)(Counter);
